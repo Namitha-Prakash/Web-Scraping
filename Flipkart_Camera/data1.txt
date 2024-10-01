@@ -1,0 +1,41 @@
+with python,
+read file Flipkart.html and parse it with Beautifulsoup
+
+find all
+div class="_2kHMtA" data-tkid="en_kwUgLyfE845bNPWlsin1hnbYTsoQzWGKpvPWqspPl360VVTM2O8JnLDSMdE7BE26C3HuHElpRoVda74qhJrfdg==" 
+div class="_2kHMtA" data-tkid="en_kwUgLyfE845bNPWlsin1hnbYTsoQzWGKpvPWqspPl37jbaPZjgY-mC_ImgMNxLmBBIqq5XrNzAsnAhmZ1bG42Q=="
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLFDJ9DFXVAZDTS.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLG6G8U8P2NGEHG.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.CAMFM67HBBUJWA9Y.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLF7GBGWYNB5SZK.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLFHY8YCXP7WM32.SEARCH"
+div class="_2kHMtA" data-tkid="en_kwUgLyfE845bNPWlsin1hnbYTsoQzWGKpvPWqspPl358W1SJpIzTCkQSimEm5924arT1HM9otk0Ie2VBFC1gvA=="
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGBKMZHNUDSPBP.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLG6G8UNHFCDYY9.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.CAMFM67HGGZDDXUE.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLF6QZPNKTQMS8J.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLFHY8YC9GHHZH4.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLF7GBGTVVCVHAQ.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLG2XDCDGMG54AJ.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.CAMFM67HNWZRQMC4.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLFDJ8AHYXPQKRG.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGARYGYKXAWATX.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGGYSTMHSSXFZR.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGGYSTTDDMGMX3.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGFY7XYG8YFMQT.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLG2XDCY9HZMBB7.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLGGYSQZ7ZGD5PA.SEARCH"
+div class="_2kHMtA" data-tkid="27941d5b-fa5b-41fa-a8e2-dbe6f5193d00.DLLFYB4EDZXMPXWG.SEARCH"
+
+
+
+try find div with class="_4rR01T" and store it as Product_Name
+except Product_Name = " "
+
+div with class="_30jeq3 _1_WHN1" and store it to Product_Price
+except Product_Price = " "
+
+div class="_3LWZlK" and store it to Product_Reviews
+except Product_Reviews = " 
+
+open an excel file and write Product_Name , Product_Price , Product_Reviews

@@ -1,0 +1,10 @@
+with python,
+read file Flipkart_Laptop.html and parse it with Beautifulsoup
+
+find all
+"en_-LzNkdyIFH3MAabz42mf2sM72owmWwt-_UFIybAYKGwXQa7LsXWJGq4ZgNrEWriAwHbzu7u-sFuJLp3nCv5BJA=="
+
+
+div class="_4rR01T" Product name
+div class="_30jeq3 _1_WHN1" Product price
+div class="_3LWZlK" Poduct Review 
